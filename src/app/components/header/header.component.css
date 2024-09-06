@@ -1,0 +1,97 @@
+.headerComponent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 20px;
+  min-width: 1000px;
+  max-width: 100%;
+  background-color: white;
+}
+
+.logo {
+  position: absolute;
+  align-items: center;
+  left: 100px; 
+  margin: 0;
+  font-family: 'Georgia', serif;
+  font-size: 32px; 
+  font-weight: bold; 
+  color: #333; 
+  letter-spacing: 1px; 
+  transition: color 0.3s ease; 
+  color: #007bff;
+  cursor: pointer;
+}
+
+.logo:hover {
+  color: gray;
+}
+
+
+.mat-group {
+  display: flex;
+  justify-content: center;
+  /* flex-grow: 1; */
+  gap: 50px; 
+  align-items: center;
+  width: 100%;
+}
+
+.mat-tab {
+  padding: 8px 16px; 
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-weight: lighter;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative; 
+  color: gray; 
+  transition: color 0.3s ease;
+}
+
+.mat-tab::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #007bff;
+  transition: width 0.3s ease;
+}
+
+.mat-tab:hover {
+  color: #007bff;
+}
+
+.mat-tab:hover::after {
+  width: 100%;
+}
+
+
+.contactButton {
+  position: absolute;
+  align-items: center;
+  right: 100px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contactButton:hover {
+  background-color: aliceblue;
+  color: #007bff;
+  border: 2px solid #007bff;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}

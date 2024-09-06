@@ -1,0 +1,84 @@
+/* .home-container {
+  overflow: auto;
+} */
+.tag-line {
+  text-align: center;
+  padding-left: 13vw;
+  padding-right: 13vw;
+  padding-top: 50px;
+  font-size: 42px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+  background: linear-gradient(to right, black 10%, #007bff 120%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  background-clip: text;
+
+  animation: shine 3s infinite;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+
+  .tag-line-sub {
+    text-align: center;
+    padding-left: 18vw;
+    padding-right: 18vw;
+    padding-top: 10px;
+    font-size: 24px;
+    letter-spacing: 1px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.2; /* Decreases vertical space between lines */
+  }
+
+  .parent-container {
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;  /* Centers content horizontally */
+  }
+  
+  .contactButton {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contactButton:hover {
+    background-color: aliceblue;
+    color: #007bff;
+    border: 2px solid #007bff;
+  }
+
+/* Container for centering the image */
+.parent-web-photo {
+  display: flex;
+  justify-content: center; /* Centers content horizontally */
+  align-items: center;     /* Centers content vertically */
+  height: 100vh;           /* Full viewport height to center vertically */
+  width: 100vw;            /* Full viewport width to center horizontally */
+  overflow: hidden;        /* Ensures no scrollbars appear */
+}
+
+.web-photo {
+  max-width: 100%;         /* Ensures the image doesn't overflow the container */
+  max-height: 100%;        /* Ensures the image maintains aspect ratio */
+  object-fit: cover;       /* Adjusts the image to cover the container */
+  background: transparent;
+}
+
+  
