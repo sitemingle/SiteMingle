@@ -1,0 +1,42 @@
+.tag-line {
+    text-align: center;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    padding-top: 50px;
+    font-size: 42px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    background: linear-gradient(to right, black 10%, #007bff 120%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    background-clip: text;
+  
+    animation: shine 3s infinite;
+  }
+  
+  @keyframes shine {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+  
+  
+    .tag-line-sub {
+      text-align: center;
+      padding-left: 16vw;
+      padding-right: 16vw;
+      padding-top: 10px;
+      font-size: 24px;
+      letter-spacing: 1px; 
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      line-height: 1.2; /* Decreases vertical space between lines */
+      color: rgb(101, 100, 100);
+    }
+  
+    
