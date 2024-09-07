@@ -1,0 +1,8 @@
+{
+  "routes": [
+    "/",
+    "/AboutUs",
+    "/ContactUs",
+    "/Home"
+  ]
+}
