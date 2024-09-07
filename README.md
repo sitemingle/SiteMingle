@@ -25,3 +25,16 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+
+### Hosting on git, install the below library
+ng add angular-cli-ghpages
+
+
+### ng build --base-href "https://www.userName.github.io/repoName"
+ng build --base-href "https://sitemingle.github.io/SiteMingle/"
+
+## --dir is the directory where index.html is there after build in the dist folder, below command will create a gh-pages branch from where your site will be hosted
+npx angular-cli-ghpages --dir=dist/site-mingle 
+
+## site will be live at https://sitemingle.github.io/SiteMingle/
