@@ -1,0 +1,64 @@
+.parent-contact-us {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+    height: 100vh; 
+    width: 100vw;
+    overflow: hidden; 
+  }
+  
+  .contact-us {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover; 
+  }
+  
+  .overlay-content {
+    position: absolute;
+    color: rgb(101, 100, 100); 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    top: 37%;
+    left: 55.5%; 
+    transform: translate(-50%, -30%); 
+    width: 30%;                 
+  }
+  
+  .overlay-text {
+    font-size: 22px;
+    letter-spacing: 0.6px; 
+    line-height: normal;
+    font-weight: bold;
+  }
+
+  .motivation {
+    margin-top: 20px;           
+    font-size: 16px;             
+    line-height: 1.5;            
+  }
+  .heading {
+    font-weight: bold;
+  }
+  
+  .contact-details {
+    margin-top: 20px;   
+    font-size: 16px;          
+    line-height: 1.5;            
+
+  }
+  
+  .contact-details a {
+    color: #007BFF;              
+    text-decoration: none;       
+  }
+  
+  .contact-details a:hover {
+    text-decoration: underline; 
+  }
+  
+  .location {
+    margin-top: 6vh;
+    font-weight: bold;
+    font-size: 24px;
+    color: #007BFF;;
+  }
