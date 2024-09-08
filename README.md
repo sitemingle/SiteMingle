@@ -26,15 +26,32 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
 
-
 ### Hosting on git, install the below library
+
 ng add angular-cli-ghpages
 
-
 ### ng build --base-href "https://www.userName.github.io/repoName"
+
 ng build --base-href "https://sitemingle.github.io/SiteMingle/"
 
 ## --dir is the directory where index.html is there after build in the dist folder, below command will create a gh-pages branch from where your site will be hosted
-npx angular-cli-ghpages --dir=dist/site-mingle 
+
+npx angular-cli-ghpages --dir=dist/site-mingle/browser
 
 ## site will be live at https://sitemingle.github.io/SiteMingle/
+### end
+
+# how to install lint and prettier
+ng add @angular-eslint/schematics
+
+npm install eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-plugin-prettier eslint-config-prettier --save-dev
+
+npm install prettier --save-dev
+
+## Add below line in package.json in script tag
+"scripts": {
+  "lint": "ng lint --fix && npm run prettier",
+  "prettier": "npx prettier --write ."
+}
+
+

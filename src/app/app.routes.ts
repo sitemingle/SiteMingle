@@ -4,16 +4,20 @@ import { AboutUsComponent } from './components/about-us/about-us.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
 
 export const routes: Routes = [
-    {
-        path:'' , component: HomeComponent
-    },
-    {
-        path:'Home', component: HomeComponent
-    },
-    {
-        path:'AboutUs', component: AboutUsComponent
-    },
-    {
-        path:'ContactUs', component: ContactUsComponent
-    }
+  {
+    path: '',
+    component: HomeComponent,
+  },
+  {
+    path: 'Home',
+    component: HomeComponent,
+  },
+  {
+    path: 'AboutUs',
+    component: AboutUsComponent,
+  },
+  {
+    path: 'ContactUs',
+    component: ContactUsComponent,
+  },
 ];
