@@ -1,8 +1,41 @@
 <div class="headerComponent">
-  <h2 class="logo" mat-tab-link (click)="navigateTo('Home')">SiteMingle</h2>
+  <h2
+    class="logo"
+    mat-tab-link
+    (click)="navigateTo('Home')"
+    (keydown.enter)="navigateTo('Home')"
+    tabindex="0"
+  >
+    <img class="logo-icon" src="assets/sublogo.png" alt="logo" />
+    <div class="nameAndTagline">
+      <p class="companyName">SiteMingle</p>
+      <p class="tagline">Empower Your Buisness with Smart Tech</p>
+    </div>
+  </h2>
   <nav mat-tab-nav-bar class="mat-group">
-    <a class="mat-tab" mat-tab-link (click)="navigateTo('Home')">Home</a>
-    <a class="mat-tab" mat-tab-link (click)="navigateTo('AboutUs')">About Us</a>
+    <a
+      class="mat-tab"
+      mat-tab-link
+      (click)="navigateTo('Home')"
+      (keydown.enter)="navigateTo('Home')"
+      tabindex="0"
+      >Home</a
+    >
+    <a
+      class="mat-tab"
+      mat-tab-link
+      (click)="navigateTo('AboutUs')"
+      (keydown.enter)="navigateTo('AboutUs')"
+      tabindex="0"
+      >About Us</a
+    >
   </nav>
-  <button mat-flat-button class="contactButton" (click)="navigateTo('ContactUs')">Contact Us</button>
+  <button
+    mat-flat-button
+    class="contactButton"
+    (click)="navigateTo('ContactUs')"
+    (keydown.enter)="navigateTo('ContactUs')"
+  >
+    Contact Us
+  </button>
 </div>

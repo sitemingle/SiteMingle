@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
   standalone: true,
   imports: [MatTabGroup, MatTab],
   templateUrl: './header.component.html',
-  styleUrl: './header.component.css'
+  styleUrl: './header.component.css',
 })
 export class HeaderComponent {
   constructor(private router: Router) {}
@@ -15,5 +15,4 @@ export class HeaderComponent {
   navigateTo(route: string): void {
     this.router.navigate([`/${route}`]);
   }
-
 }

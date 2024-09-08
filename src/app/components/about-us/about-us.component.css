@@ -1,106 +1,103 @@
 .tag-line {
-    text-align: center;
-    padding-left: 20vw;
-    padding-right: 20vw;
-    padding-top: 50px;
-    font-size: 42px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    
-    background: linear-gradient(to right, black 10%, #007bff 120%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    
-    background-clip: text;
-  
-    animation: shine 3s infinite;
-  }
-  
-  @keyframes shine {
-    0% {
-      background-position: 0% 50%;
-    }
-    100% {
-      background-position: 100% 50%;
-    }
-  }
-  
-  
-    .tag-line-sub {
-      text-align: center;
-      padding-left: 16vw;
-      padding-right: 16vw;
-      padding-top: 10px;
-      font-size: 24px;
-      letter-spacing: 1px; 
-      font-family: Georgia, 'Times New Roman', Times, serif;
-      line-height: 1.2;
-      color: rgb(101, 100, 100);
-    }
+  text-align: center;
+  padding-left: 20vw;
+  padding-right: 20vw;
+  padding-top: 50px;
+  font-size: 42px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 
-    .tag-line-2 {
-      text-align: center;
-      padding-left: 20vw;
-      padding-right: 20vw;
-      padding-top: 50px;
-      font-size: 32px;
-      font-weight: lighter;
-      letter-spacing: 1px;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-      
-      background: linear-gradient(to right, black 100%, #007bff 0%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      
-      background-clip: text;
-    
-      animation: shine 3s infinite;
-    }
-    
-    @keyframes shine {
-      0% {
-        background-position: 0% 50%;
-      }
-      100% {
-        background-position: 100% 50%;
-      }
-    }
+  background: linear-gradient(to right, black 10%, #007bff 120%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
-    #tab-group {
-      display: flex;
-      justify-content: center;
-      width: 70vw;
-      margin: 0 auto;
-      padding-top: 2vh;
-      padding-bottom: 10vh;
-    }
-    
-    .logo-container {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      margin-top: 20px;
-      gap: 2vw;
-    }
-    
-    .logo-item {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      width: 6vw; /* Ensures all items have the same width */
-    }
-    
-    .logo {
-      width: 7vh;
-      height: auto;
-      object-fit: contain;
-    }
-    
-    .logo-caption {
-      font-size: 14px;
-      white-space: nowrap; /* Prevents text from wrapping */
-    }
-    
-    
+  background-clip: text;
+
+  animation: shine 3s infinite;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.tag-line-sub {
+  text-align: center;
+  padding-left: 16vw;
+  padding-right: 16vw;
+  padding-top: 10px;
+  font-size: 24px;
+  letter-spacing: 1px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 1.2;
+  color: rgb(101, 100, 100);
+}
+
+.tag-line-2 {
+  text-align: center;
+  padding-left: 20vw;
+  padding-right: 20vw;
+  padding-top: 50px;
+  font-size: 32px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+
+  background: linear-gradient(to right, black 100%, #007bff 0%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  background-clip: text;
+
+  animation: shine 3s infinite;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+#tab-group {
+  display: flex;
+  justify-content: center;
+  width: 70vw;
+  margin: 0 auto;
+  padding-top: 2vh;
+  padding-bottom: 10vh;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  gap: 2vw;
+}
+
+.logo-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 6vw; /* Ensures all items have the same width */
+}
+
+.logo {
+  width: 7vh;
+  height: auto;
+  object-fit: contain;
+}
+
+.logo-caption {
+  font-size: 14px;
+  white-space: nowrap; /* Prevents text from wrapping */
+}
