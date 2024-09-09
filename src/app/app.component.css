@@ -1,6 +1,12 @@
-.app-container {
-  background-color: aliceblue;
+.router {
   width: 100%;
-  overflow: auto;
   height: 100%;
+  overflow: auto;
+  background-color: aliceblue;
+}
+
+.header {
+  width: 100%;
+  position: sticky;
+  top: 0;
 }
