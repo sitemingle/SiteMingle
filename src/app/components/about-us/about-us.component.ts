@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
-import { MatTab, MatTabGroup } from '@angular/material/tabs';
+import { MatTab, MatTabGroup, MatTabsModule } from '@angular/material/tabs';
 import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-about-us',
   standalone: true,
-  imports: [MatTab, MatTabGroup],
+  imports: [MatTab, MatTabGroup, MatTabsModule],
   templateUrl: './about-us.component.html',
   styleUrl: './about-us.component.css',
 })
