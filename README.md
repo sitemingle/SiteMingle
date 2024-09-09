@@ -39,9 +39,11 @@ ng build --base-href "https://sitemingle.github.io/SiteMingle/"
 npx angular-cli-ghpages --dir=dist/site-mingle/browser
 
 ## site will be live at https://sitemingle.github.io/SiteMingle/
+
 ### end
 
 # how to install lint and prettier
+
 ng add @angular-eslint/schematics
 
 npm install eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-plugin-prettier eslint-config-prettier --save-dev
@@ -49,9 +51,8 @@ npm install eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser es
 npm install prettier --save-dev
 
 ## Add below line in package.json in script tag
+
 "scripts": {
-  "lint": "ng lint --fix && npm run prettier",
-  "prettier": "npx prettier --write ."
+"lint": "ng lint --fix && npm run prettier",
+"prettier": "npx prettier --write ."
 }
-
-
