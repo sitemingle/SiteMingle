@@ -34,6 +34,10 @@ ng add angular-cli-ghpages
 
 ng build --base-href "https://sitemingle.github.io/SiteMingle/"
 
+or
+
+ng build --base-href "https://sitemingle.in"
+
 ## --dir is the directory where index.html is there after build in the dist folder, below command will create a gh-pages branch from where your site will be hosted
 
 npx angular-cli-ghpages --dir=dist/site-mingle/browser
