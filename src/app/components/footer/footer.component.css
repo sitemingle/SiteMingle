@@ -1,0 +1,23 @@
+.footer-container {
+  display: flex;
+  background-color: black;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  font-size: clamp(16px, 1.2vw, 1.2vw);
+  height: clamp(40px, 3vw, 3vw);
+  align-items: center;
+}
+
+.footer-link {
+  display: inline-flex;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
