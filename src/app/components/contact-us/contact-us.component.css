@@ -9,6 +9,11 @@
 }
 
 .contact-us {
+  min-height: 92vh;
+  overflow-x: hidden;
+}
+
+.contact-us-img {
   margin-top: clamp(16px, 0.6vw, 0.6vw);
   margin-bottom: clamp(16px, 2vw, 2vw);
   /* max-width: 100%;*/
